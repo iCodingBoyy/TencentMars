@@ -135,7 +135,7 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
 s.subspec 'framework' do |sp|
-        sp.vendored_frameworks = 'framework/mars.framework'
+        sp.ios.vendored_frameworks = 'mars.framework'
     end
 
 end
